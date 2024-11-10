@@ -1,0 +1,101 @@
+﻿class World {
+    // The world is divided into chunks for efficient collision checking
+    const CHUNK_SIZE = 16;
+    Map<Vector2, Chunk> chunks;
+    List<Entity> entities;
+}
+
+class Chunk {
+    Tile[,] tiles;  // 16x16 grid of tiles
+    List<Entity> entities;  // Entities currently in this chunk
+    
+    List<Entity> GetNearbyEntities(Vector2 position, float radius) {
+        // Return entities within radius of position
+        return entities.Where(e => Vector2.Distance(e.position, position) <= radius);
+    }
+}
+
+class Entity {
+    Vector2 position;
+    Vector2 velocity;
+    Rectangle bounds;  // AABB collision bounds
+    float mass;
+    bool collidesWithTiles;
+    bool collidesWithEntities;
+    
+    void Update(float deltaTime) {
+        Vector2 newPosition = position + velocity * deltaTime;
+        
+        // Get relevant chunks for collision checking
+        var chunks = GetRelevantChunks(bounds);
+        
+        // Check tile collisions first
+        if (collidesWithTiles) {
+            foreach (var chunk in chunks) {
+                var collidingTiles = GetCollidingTiles(chunk, newPosition);
+                foreach (var tile in collidingTiles) {
+                    ResolveCollision(tile);
+                }
+            }
+        }
+        
+        // Then check entity collisions
+        if (collidesWithEntities) {
+            foreach (var chunk in chunks) {
+                var nearbyEntities = chunk.GetNearbyEntities(position, bounds.Size.Length());
+                foreach (var other in nearbyEntities) {
+                    if (CheckAABBCollision(other.bounds)) {
+                        ResolveEntityCollision(other);
+                    }
+                }
+            }
+        }
+        
+        // Update position after all collisions are resolved
+        position = newPosition;
+    }
+    
+    bool CheckAABBCollision(Rectangle otherBounds) {
+        return bounds.Left < otherBounds.Right &&
+               bounds.Right > otherBounds.Left &&
+               bounds.Top < otherBounds.Bottom &&
+               bounds.Bottom > otherBounds.Top;
+    }
+    
+    
+    void ResolveCollision(Tile tile) {
+        // Handle different tile types differently
+        switch (tile.type) {
+            case TileType.Solid:
+                // Push entity out of solid tiles
+                Vector2 penetration = CalculatePenetration(bounds, tile.bounds);
+                position += penetration;
+                break;
+            case TileType.Platform:
+                // Only collide when falling
+                if (velocity.Y > 0 && lastPosition.Y + bounds.Height <= tile.bounds.Top) {
+                    position.Y = tile.bounds.Top - bounds.Height;
+                    velocity.Y = 0;
+                }
+                break;
+        }
+    }
+    
+    void ResolveEntityCollision(Entity other) {
+        // Calculate collision response based on mass and velocity
+        Vector2 normal = Vector2.Normalize(other.position - position);
+        float relativeVelocity = Vector2.Dot(velocity - other.velocity, normal);
+        
+        // Only resolve if objects are moving toward each other
+        if (relativeVelocity > 0) return;
+        
+        // Calculate impulse
+        float restitution = 0.5f; // Bouncy factor
+        float impulse = -(1 + restitution) * relativeVelocity;
+        impulse /= 1/mass + 1/other.mass;
+        
+        // Apply impulse
+        velocity += (impulse / mass) * normal;
+        other.velocity -= (impulse / other.mass) * normal;
+    }
+}

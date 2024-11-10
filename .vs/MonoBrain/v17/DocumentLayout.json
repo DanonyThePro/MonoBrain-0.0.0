@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danny\\source\\repos\\MonoBrain\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D89C9D5D-978D-4AB3-9091-7FEB97B6F68B}|Game\\Game.csproj|c:\\users\\danny\\source\\repos\\monobrain\\game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89C9D5D-978D-4AB3-9091-7FEB97B6F68B}|Game\\Game.csproj|solutionrelative:game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D89C9D5D-978D-4AB3-9091-7FEB97B6F68B}|Game\\Game.csproj|c:\\users\\danny\\source\\repos\\monobrain\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89C9D5D-978D-4AB3-9091-7FEB97B6F68B}|Game\\Game.csproj|solutionrelative:game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8862BAFB-C610-4013-B51A-A7EE4BE498F0}|MonoBrain\\MonoBrain.csproj|c:\\users\\danny\\source\\repos\\monobrain\\monobrain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8862BAFB-C610-4013-B51A-A7EE4BE498F0}|MonoBrain\\MonoBrain.csproj|solutionrelative:monobrain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8862BAFB-C610-4013-B51A-A7EE4BE498F0}|MonoBrain\\MonoBrain.csproj|c:\\users\\danny\\source\\repos\\monobrain\\monobrain\\game_engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8862BAFB-C610-4013-B51A-A7EE4BE498F0}|MonoBrain\\MonoBrain.csproj|solutionrelative:monobrain\\game_engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8862BAFB-C610-4013-B51A-A7EE4BE498F0}|MonoBrain\\MonoBrain.csproj|c:\\users\\danny\\source\\repos\\monobrain\\monobrain\\gameenginescripts\\fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8862BAFB-C610-4013-B51A-A7EE4BE498F0}|MonoBrain\\MonoBrain.csproj|solutionrelative:monobrain\\gameenginescripts\\fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8862BAFB-C610-4013-B51A-A7EE4BE498F0}|MonoBrain\\MonoBrain.csproj|c:\\users\\danny\\source\\repos\\monobrain\\monobrain\\gameenginescripts\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8862BAFB-C610-4013-B51A-A7EE4BE498F0}|MonoBrain\\MonoBrain.csproj|solutionrelative:monobrain\\gameenginescripts\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8862BAFB-C610-4013-B51A-A7EE4BE498F0}|MonoBrain\\MonoBrain.csproj|c:\\users\\danny\\source\\repos\\monobrain\\monobrain\\icon.bmp||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{8862BAFB-C610-4013-B51A-A7EE4BE498F0}|MonoBrain\\MonoBrain.csproj|solutionrelative:monobrain\\icon.bmp||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\source\\repos\\MonoBrain\\Game\\Program.cs",
+              "RelativeDocumentMoniker": "Game\\Program.cs",
+              "ToolTip": "C:\\Users\\danny\\source\\repos\\MonoBrain\\Game\\Program.cs",
+              "RelativeToolTip": "Game\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:41:37.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileLoader.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\source\\repos\\MonoBrain\\MonoBrain\\GameEngineScripts\\FileLoader.cs",
+              "RelativeDocumentMoniker": "MonoBrain\\GameEngineScripts\\FileLoader.cs",
+              "ToolTip": "C:\\Users\\danny\\source\\repos\\MonoBrain\\MonoBrain\\GameEngineScripts\\FileLoader.cs",
+              "RelativeToolTip": "MonoBrain\\GameEngineScripts\\FileLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:41:26.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Body.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\source\\repos\\MonoBrain\\MonoBrain\\GameEngineScripts\\Body.cs",
+              "RelativeDocumentMoniker": "MonoBrain\\GameEngineScripts\\Body.cs",
+              "ToolTip": "C:\\Users\\danny\\source\\repos\\MonoBrain\\MonoBrain\\GameEngineScripts\\Body.cs",
+              "RelativeToolTip": "MonoBrain\\GameEngineScripts\\Body.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:41:20.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game_Engine.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\source\\repos\\MonoBrain\\MonoBrain\\Game_Engine.cs",
+              "RelativeDocumentMoniker": "MonoBrain\\Game_Engine.cs",
+              "ToolTip": "C:\\Users\\danny\\source\\repos\\MonoBrain\\MonoBrain\\Game_Engine.cs",
+              "RelativeToolTip": "MonoBrain\\Game_Engine.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:39:27.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Icon.bmp",
+              "DocumentMoniker": "C:\\Users\\danny\\source\\repos\\MonoBrain\\MonoBrain\\Icon.bmp",
+              "RelativeDocumentMoniker": "MonoBrain\\Icon.bmp",
+              "ToolTip": "C:\\Users\\danny\\source\\repos\\MonoBrain\\MonoBrain\\Icon.bmp",
+              "RelativeToolTip": "MonoBrain\\Icon.bmp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-11-04T13:39:18.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\source\\repos\\MonoBrain\\MonoBrain\\Program.cs",
+              "RelativeDocumentMoniker": "MonoBrain\\Program.cs",
+              "ToolTip": "C:\\Users\\danny\\source\\repos\\MonoBrain\\MonoBrain\\Program.cs",
+              "RelativeToolTip": "MonoBrain\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:38:44.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "game.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\source\\repos\\MonoBrain\\Game\\game.cs",
+              "RelativeDocumentMoniker": "Game\\game.cs",
+              "ToolTip": "C:\\Users\\danny\\source\\repos\\MonoBrain\\Game\\game.cs",
+              "RelativeToolTip": "Game\\game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:04:32.612Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

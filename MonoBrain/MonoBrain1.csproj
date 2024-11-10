@@ -1,0 +1,102 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include=".config\dotnet-tools.json" />
+      <Content Include=".idea\.idea.GE_for_CS.dir\.idea\.gitignore" />
+      <Content Include=".idea\.idea.GE_for_CS.dir\.idea\encodings.xml" />
+      <Content Include=".idea\.idea.GE_for_CS.dir\.idea\indexLayout.xml" />
+      <Content Include=".idea\.idea.GE_for_CS.dir\.idea\projectSettingsUpdater.xml" />
+      <Content Include=".idea\.idea.GE_for_CS.dir\.idea\vcs.xml" />
+      <Content Include=".idea\.idea.GE_for_CS.dir\.idea\workspace.xml" />
+      <Content Include=".idea\.idea.MonoBrain.dir\.idea\.gitignore" />
+      <Content Include=".idea\.idea.MonoBrain.dir\.idea\encodings.xml" />
+      <Content Include=".idea\.idea.MonoBrain.dir\.idea\indexLayout.xml" />
+      <Content Include=".idea\.idea.MonoBrain.dir\.idea\projectSettingsUpdater.xml" />
+      <Content Include=".idea\.idea.MonoBrain.dir\.idea\vcs.xml" />
+      <Content Include=".idea\.idea.MonoBrain.dir\.idea\workspace.xml" />
+      <Content Include="bin\Debug\net6.0\Content\character.xnb" />
+      <Content Include="bin\Debug\net6.0\GE_for_CS.deps.json" />
+      <Content Include="bin\Debug\net6.0\GE_for_CS.dll" />
+      <Content Include="bin\Debug\net6.0\GE_for_CS.exe" />
+      <Content Include="bin\Debug\net6.0\GE_for_CS.pdb" />
+      <Content Include="bin\Debug\net6.0\GE_for_CS.runtimeconfig.json" />
+      <Content Include="bin\Debug\net6.0\MonoBrain.deps.json" />
+      <Content Include="bin\Debug\net6.0\MonoBrain.dll" />
+      <Content Include="bin\Debug\net6.0\MonoBrain.exe" />
+      <Content Include="bin\Debug\net6.0\MonoBrain.pdb" />
+      <Content Include="bin\Debug\net6.0\MonoBrain.runtimeconfig.json" />
+      <Content Include="bin\Debug\net6.0\MonoGame.Framework.dll" />
+      <Content Include="bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1" />
+      <Content Include="bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0" />
+      <Content Include="bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib" />
+      <Content Include="bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib" />
+      <Content Include="bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll" />
+      <Content Include="bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll" />
+      <Content Include="bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll" />
+      <Content Include="bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll" />
+      <Content Include="Folder.DotSettings.user" />
+      <Content Include="MonoBrain.csproj" />
+      <Content Include="obj\Debug\net6.0\apphost.exe" />
+      <Content Include="obj\Debug\net6.0\GE_for_CS.AssemblyInfoInputs.cache" />
+      <Content Include="obj\Debug\net6.0\GE_for_CS.assets.cache" />
+      <Content Include="obj\Debug\net6.0\GE_for_CS.csproj.AssemblyReference.cache" />
+      <Content Include="obj\Debug\net6.0\GE_for_CS.csproj.BuildWithSkipAnalyzers" />
+      <Content Include="obj\Debug\net6.0\GE_for_CS.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net6.0\GE_for_CS.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\net6.0\GE_for_CS.csproj.Up2Date" />
+      <Content Include="obj\Debug\net6.0\GE_for_CS.dll" />
+      <Content Include="obj\Debug\net6.0\GE_for_CS.GeneratedMSBuildEditorConfig.editorconfig" />
+      <Content Include="obj\Debug\net6.0\GE_for_CS.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net6.0\GE_for_CS.pdb" />
+      <Content Include="obj\Debug\net6.0\MonoBrain.AssemblyInfoInputs.cache" />
+      <Content Include="obj\Debug\net6.0\MonoBrain.assets.cache" />
+      <Content Include="obj\Debug\net6.0\MonoBrain.csproj.AssemblyReference.cache" />
+      <Content Include="obj\Debug\net6.0\MonoBrain.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net6.0\MonoBrain.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\net6.0\MonoBrain.dll" />
+      <Content Include="obj\Debug\net6.0\MonoBrain.GeneratedMSBuildEditorConfig.editorconfig" />
+      <Content Include="obj\Debug\net6.0\MonoBrain.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net6.0\MonoBrain.pdb" />
+      <Content Include="obj\Debug\net6.0\refint\GE_for_CS.dll" />
+      <Content Include="obj\Debug\net6.0\refint\MonoBrain.dll" />
+      <Content Include="obj\Debug\net6.0\ref\GE_for_CS.dll" />
+      <Content Include="obj\Debug\net6.0\ref\MonoBrain.dll" />
+      <Content Include="obj\GE_for_CS.csproj.nuget.dgspec.json" />
+      <Content Include="obj\GE_for_CS.csproj.nuget.g.props" />
+      <Content Include="obj\GE_for_CS.csproj.nuget.g.targets" />
+      <Content Include="obj\MonoBrain.csproj.nuget.dgspec.json" />
+      <Content Include="obj\MonoBrain.csproj.nuget.g.props" />
+      <Content Include="obj\MonoBrain.csproj.nuget.g.targets" />
+      <Content Include="obj\project.assets.json" />
+      <Content Include="obj\project.nuget.cache" />
+      <Content Include="obj\project.packagespec.json" />
+      <Content Include="obj\Release\net6.0\GE_for_CS.AssemblyInfoInputs.cache" />
+      <Content Include="obj\Release\net6.0\GE_for_CS.assets.cache" />
+      <Content Include="obj\Release\net6.0\GE_for_CS.csproj.AssemblyReference.cache" />
+      <Content Include="obj\Release\net6.0\GE_for_CS.GeneratedMSBuildEditorConfig.editorconfig" />
+      <Content Include="obj\rider.project.model.nuget.info" />
+      <Content Include="obj\rider.project.restore.info" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="bin\Release\net6.0\" />
+      <Folder Include="obj\Release\net6.0\refint\" />
+      <Folder Include="obj\Release\net6.0\ref\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+      <Compile Include="obj\Debug\net6.0\GE_for_CS.AssemblyInfo.cs" />
+      <Compile Include="obj\Debug\net6.0\MonoBrain.AssemblyInfo.cs" />
+      <Compile Include="obj\Release\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+      <Compile Include="obj\Release\net6.0\GE_for_CS.AssemblyInfo.cs" />
+    </ItemGroup>
+
+</Project>

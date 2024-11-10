@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/danny/source/repos/MonoBrain/Game/Content/character.png","C:/Users/danny/source/repos/MonoBrain/Game/Content/bin/DesktopGL/Content/character.xnb","TextureProcessor","Texture2DContent",504,4181,1.1114469
+"C:/Users/danny/source/repos/MonoBrain/Game/Content/duck.png","C:/Users/danny/source/repos/MonoBrain/Game/Content/bin/DesktopGL/Content/duck.xnb","TextureProcessor","Texture2DContent",517,4181,0.1459853
